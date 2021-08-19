@@ -16,14 +16,30 @@
     <input type="text" id="idTest" placeholder="Insert ID">
     <br>
     <button id="get-btn">GET Data</button>
-    <button id="post-btn">POST Data</button>
+   
+    <div>
+      <p id="dataError"></p>
+      <img src="" alt="" id="dataImg">
+      <p > <strong>Personal ID:</strong> <span id="dataID"></span></p>
+      <p > <strong>Full name</strong> <span id="dataName"></span></p>
+      <p > <strong>Email:</strong> <span id="dataEmail"></span></p>
+    </div>
   </div>
-  <div>
-    <p id="dataError"></p>
-    <img src="" alt="" id="dataImg">
-    <p > <strong>Personal ID:</strong> <span id="dataID"></span></p>
-    <p > <strong>Full name</strong> <span id="dataName"></span></p>
-    <p > <strong>Email:</strong> <span id="dataEmail"></span></p>
+  
+  <div id="control-center">
+    <label for="idTest">Enter your name: </label>
+    <input type="text" id="postName" placeholder="Insert name"><br><br>
+    <label for="idTest">Enter email: </label>
+    <input type="email" id="postEmail" placeholder="Insert email"><br><br>
+    <label for="idTest">Enter your job: </label>
+    <input type="text" id="postJob" placeholder="Insert job">
+    <br>
+    <button id="post-btn">POST Data</button>
+      <p > <strong>Your ID:</strong> <span id="dataPostID"></span></p>
+      <p > <strong>Full name</strong> <span id="dataPostName"></span></p>
+      <p > <strong>Email:</strong> <span id="dataPostEmail"></span></p>
+      <p > <strong>Job:</strong> <span id="dataPostJob"></span></p>
+      <p > <strong>Date created:</strong> <span id="dataPostDate"></span></p>
   </div>
 </body>
 </html>
