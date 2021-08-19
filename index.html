@@ -11,10 +11,19 @@
   <!-- <script src="xhr.js" defer></script> -->
 </head>
 <body>
-  <section id="control-center">
+  <div id="control-center">
+    <label for="idTest">Enter person ID (1-12): </label>
     <input type="text" id="idTest" placeholder="Insert ID">
+    <br>
     <button id="get-btn">GET Data</button>
     <button id="post-btn">POST Data</button>
-  </section>
+  </div>
+  <div>
+    <p id="dataError"></p>
+    <img src="" alt="" id="dataImg">
+    <p > <strong>Personal ID:</strong> <span id="dataID"></span></p>
+    <p > <strong>Full name</strong> <span id="dataName"></span></p>
+    <p > <strong>Email:</strong> <span id="dataEmail"></span></p>
+  </div>
 </body>
 </html>
